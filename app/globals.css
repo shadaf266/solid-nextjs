@@ -125,3 +125,113 @@ pre {
 .active-tab {
   @apply bg-stroke text-black dark:bg-blackho dark:text-white;
 }
+
+
+
+nav ul li a {
+  font-size: 14px;
+}
+.text-regular.font-medium.text-waterloo.hover\:text-primary {
+  font-size: 14px !important;
+  color:#796FC3 !important;
+}
+.flex.items-center.justify-center.rounded-full.bg-primary.px-7\.5.py-2\.5.text-regular.text-white.duration-300.ease-in-out.hover\:bg-primaryho {
+  font-size: 14px !important;
+  width: 99px;
+  height: 36px !important;
+  padding: 10px !important;
+}
+.flex.flex-col.gap-5.xl\:flex-row.xl\:items-center.xl\:gap-10 {
+  gap: 1.4rem !important;
+  margin-left:-2%;
+  width: 100%;
+}
+
+
+.footer-col {
+  display: flex;
+  gap: 8rem;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.footer-col > div > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:1.8rem;
+}
+
+.footer-col > div > ul li a {
+  margin-bottom: 0 !important;
+  color: #171A1F !important;
+}
+
+.animate_top.subscribe-section {
+  width: 80% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.footer-col .footer-logo img {
+  position: relative;
+  right: 15%;
+  height: 32px;
+  width: 97px;
+}
+
+footer {
+  background-color: #FAFAFB !important;
+}
+
+p.copyright-texts {
+  color: #424955 !important;
+  font-size: 14px;
+  margin-left: 18%;
+  width: 100%;
+}
+
+main {
+  visibility: hidden;
+}
+
+.newslater-wrapper {
+  background-color: #EAECEF !important;
+  position: relative;
+}
+
+
+.bg-primery {
+  background-color: #796FC3 !important;
+  color: #fff !important;
+  width: 112px !important;
+  border-radius: 22px !important;
+  height: 43px !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  padding: 0.5rem;
+  font-size: 16px;
+}
+
+.newslater-wrapper {
+  height: 43px !important;
+  width: 365px !important;
+}
+
+img.mail-icon {
+  position: absolute;
+  z-index: 99;
+  top: 26%;
+  left: 4%;
+}
+
+.newslater-wrapper::placeholder {
+  color: #BCC1CA;
+  font-size: 16px;
+  padding-left: 14px;
+}
